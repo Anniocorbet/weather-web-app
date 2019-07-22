@@ -1,0 +1,154 @@
+*{
+    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', sans-serif;
+}
+body,html{
+    background:linear-gradient(rgb(47,150,163),rgb(48,62,143));
+
+}
+.icon{
+    /* background-color: black; */
+    width: 100%;
+}
+
+.search-container{
+    margin-top: 45px;
+    width:100%;
+}
+.search-box{
+    width: 100%;
+    height: 40px;
+    margin-bottom:5px;
+    border-radius:25px;
+    text-align: center;
+    border:1px solid black;
+} 
+.btn{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.search-button{
+    width:80px;
+    border-radius: 15px;
+    border:1px solid black;
+    background-color:white;
+    box-shadow: 0px 0px 0px;
+    height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+.weatherinfobox{
+    padding: 80px 30px 30px 30px;
+
+}
+table{
+    margin: 0 auto;
+}
+
+/* setting for i-pad  */
+
+@media only screen and (min-width: 768px)
+
+
+{
+.search-container{
+        padding:15px 50px 15px 50px;
+        width:100vh;
+        }
+.search-box{
+    border-radius: 30px;
+    font-size: 30px;
+    height: 45px;
+    }
+.btn{
+    
+    margin-top: 20px;
+
+    }
+.search-button{
+    border-radius: 35px;
+    width:150px;
+    height: 40px;
+    font-size: 30px;
+}
+.weatherinfobox{
+    width:100%;
+    }    
+}
+@media only screen and (min-width: 700px)
+{
+  .search-container{
+      margin:0 auto;
+  }
+  .search-box{
+
+    width: 100%;
+      font-size: 20px;
+  }
+  .search-button{
+      font-size: 15px;
+  }
+}
+
+/* 
+body,html{
+    background:linear-gradient(rgb(47,150,163),rgb(48,62,143));
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.search-container{
+    position: absolute;
+    top:15%;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.search-box{
+    width:600px;
+    height: 40px;
+    border: none;
+    padding-inline-start: 20px;
+    padding-top:4px;
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+    box-shadow: 2px 2px 3px black;
+    outline: none;
+}
+button{
+    width:100px;
+    height: 40px;
+    padding-right: -20px;
+    border: none; 
+    font-size: 20px;
+    background-color: rgb(47,150,163);
+    color:white;
+    font-weight: bold;
+    outline: none;
+    box-shadow: 2px 2px 3px black;
+}
+button:hover{
+    background-color:rgb(48,62,143);
+}
+ tr,td{
+    /* border: 1px solid white; */
+    /* padding: 10px;
+}
+.temperature-description,.windspeed{
+    text-align: center;
+}
+span{
+    font-size: xx-large;
+    font-family: 'Merriweather', serif;
+}
+.temperature-degree{
+    width:50;
+    margin:0px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+} */ 

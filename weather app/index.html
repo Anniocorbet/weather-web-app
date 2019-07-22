@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            weather forecast
+        </title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet">
+        <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    
+    </head>
+    <body>
+        <div class="search-container">
+            <div><input type="text" class="search-box" placeholder="city name or zip code" id="searchinput"></div>
+            <div class="btn"><button class="search-button" id="searchbtn">Search</button></div>
+        </div>
+        <div class="weatherinfobox">
+            <table class="location">
+                <tr>
+                    <td>
+                    <h1 class="location-timezone">timezone</h1>
+                    </td>
+                    <td rowspan="2" colspan="2">
+                    <canvas class="icon" width="150" height="150">icon</canvas>
+                    </td>
+                </tr>
+                <tr><td ><h2 class="cityname"></h2></td></tr>
+                <tr class="degree-section">
+                    <td><h2 class="temperature-degree">34</h2>
+                     <span>F</span>
+                    </td>
+                    <td class="temperature-description">its frecky cold</td>
+                </tr>
+                <tr><td class="humidity">humidity levels</td>
+                <td colspan="2" class="windspeed">wind</td></tr>
+
+            </table>
+        </div>
+        <script src="skycons.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
